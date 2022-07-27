@@ -665,7 +665,7 @@ def parse_schedule(chat_id, r):
                     message.wait()
                 # bot.send_message(chat_id, rasp_str)
             else:
-                bot.send_message(chat_id, 'На этот день нет расписания, выберите другой период.')
+                bot.send_message(chat_id, 'Расписание не найдено, выберите другой период.')
         elif chkerr == "error":
             bot.send_message(chat_id, 'Произошла ошибка, повторите попытку еще раз.')
 
